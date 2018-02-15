@@ -4,8 +4,8 @@
     用jquery实现轮播，放大镜，分页等效果，使用了jquery-fly插件实现了添加商品到购物车特效，后端是用的node的express框架，数据库用的MongoDB
 ###部分效果图:
 ####首页效果图
-![](https://github.com/G-shitou/xiaomi/index.png)
+![](https://github.com/G-shitou/xiaomi/blob/master/index.png)
 ####登陆页效果图
-![](https://github.com/G-shitou/xiaomi/login.png)
+![](https://github.com/G-shitou/xiaomi/blob/master/login.png)
 ####商品详情页效果图
-![](https://github.com/G-shitou/xiaomi/product.png)
+![](https://github.com/G-shitou/xiaomi/blob/master/product.png)
