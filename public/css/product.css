@@ -1,0 +1,109 @@
+/*
+* @Author: gaozhenhsi
+* @Date:   2017-11-30 14:23:13
+* @Last Modified by:   name
+* @Last Modified time: 2017-12-03 20:52:50
+*/
+section.product{
+    width:86%;
+    display:flex;
+    margin:0 auto;
+    background-color:#F5F5F5;
+}
+section.product .left{
+    width:17%;
+    height:100%;
+    float: left;
+}
+section.product .left .msg{
+    margin:15px auto;
+    width:80%;
+    height:14%;
+    background-color:white;
+}
+section.product .left .msg h3{
+    text-align: center;
+    color:#FF6709;
+    font-size: 190%;
+}
+section.product .left .msg span{
+    font-size:95%;
+}
+section.product .right{
+    width:83%;
+    height:100%;
+    float: right;
+}
+section.product .right>div{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+section.product .right>div div.product{
+    width:30%;
+    height:335px;
+    background-color:white;
+    margin:15px 30px 0 0;
+}
+/* 产品页内样式 */
+section.product .right>div div.product img{
+    display:block;
+    width:55%;
+    height:150px;
+    margin:20px auto;
+}
+section.product .right>div div.product h3{
+    text-align:center;
+    font-size:130%;
+}
+section.product .right>div div.product .title{
+    text-align:center;
+    font-size:80%;
+}
+section.product .right>div div.product .price{
+    text-align:center;
+    color:red;
+    font-size:160%;
+    font-weight: bold;
+}
+section.product .right>div div.product a{
+    display:block;
+    float: left;
+    text-align:center;
+    margin:10px 0 0 38px;
+    line-height: 30px;
+    width:33%;
+    height:30px;
+    background-color:#FA8C4B;
+    border:#FA8C4B;
+    cursor: pointer;
+    color:black;
+    font-size:100%;
+}
+/* page列表 */
+section.product .right div.page{
+    width:60%;
+    height:5%;
+    margin:10px auto 0;
+}
+section.product .right div.page ul{
+    width:100%;
+    height:100%;
+    margin-top: 15px;
+    list-style: none;
+}
+section.product .right div.page ul li{
+    cursor:pointer;
+    float: left;
+    margin-left: 6%;
+}
+section.product .right div.page ul li:hover{
+    color:#FF6709;
+}
+footer{
+    width:100%;
+    min-height:30px;
+    padding-top:30px;
+    background-color:rgba(0,0,0,.04);
+}

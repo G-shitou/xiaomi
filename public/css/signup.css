@@ -1,0 +1,54 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Microsoft YaHei;
+}
+.content{
+    position:relative;
+    width:30%;
+    height:500px;
+    margin:100px auto;
+    background-color: #E6E6E6;
+}
+.content h2{
+    display: inline-block;
+    width:100%;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    color:#FF6709;
+    font-size:190%;
+    margin-top: 25px;
+}
+.content div{
+    position:relative;
+    width:100%;
+    height:50px;
+    line-height:50px;
+    margin-left:5%;
+}
+.content div input{
+    width:60%;
+    height:30px;
+}
+.content p{
+    height:21px;
+    width:50%;
+    position:relative;
+    left:30%;
+    color:red;
+    font-size:80%;
+}
+.content>input{
+    margin-top:20px;
+    display:block;
+    width:45%;
+    height:40px;
+    margin:0 auto;
+    line-height:40px;
+    font-size:110%;
+    color:white;
+    background-color:#FF6709;
+    border:1px solid #FF6709;
+    cursor: pointer;
+}
